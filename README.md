@@ -6,3 +6,23 @@ To enhance accuracy and generalization while minimizing computational cost, the 
 This project supports early disease detection, improves diagnostic confidence, and contributes to accessible and interpretable AI-powered medical imaging.
 
 
+##  Dataset and Preprocessing
+- Type: Retinal fundus images
+- Number of Classes: 3
+- Source: Publicly available on Kaggle [Eye Diseases Classification Dataset – Kaggle](https://www.kaggle.com/datasets/gunavenkatdoddi/eye-diseases-classification)
+- Preprocessing: Resizing, normalization, and image augmentation (rotation, flipping, contrast adjustment, etc.)
+- Dataset Split: Typically 80% training, 20% testing
+
+## Model Architecture
+The eye disease classification model is a lightweight Convolutional Neural Network (CNN) built using depthwise separable convolutions (SeparableConv2D) to reduce computational cost while maintaining high accuracy.  
+- The architecture includes three convolutional blocks with increasing filters (16 → 32 → 64), each followed by batch normalization and max pooling for efficient feature extraction and downsampling.  
+- The extracted features are flattened and passed through a dense layer with 64 neurons activated by ReLU, followed by a dropout layer (rate: 0.4) to prevent overfitting.
+- The final output layer uses a softmax activation with 3 output neurons, corresponding to the three eye disease classes in the dataset.
+
+I compiled the model using the Adam optimizer and trained using sparse_categorical_crossentropy as the loss function. It was trained for 20 epochs with a batch size of 32, including validation for performance monitoring.
+
+## Performance Evaluation.
+<img width="790" height="72" alt="Screenshot 2025-07-13 122247" src="https://github.com/user-attachments/assets/02ca4a84-7136-49c1-b412-a7444e1023f6" />  
+<img width="671" height="210" alt="image" src="https://github.com/user-attachments/assets/d5313950-ad57-493a-bbb5-54cbbc6049a7" />
+<img width="764" height="354" alt="Screenshot 2025-07-13 122504" src="https://github.com/user-attachments/assets/b0c41599-7484-44a7-b70f-070dcdcb6417" />
+<img width="518" height="356" alt="Screenshot 2025-07-13 122403" src="https://github.com/user-attachments/assets/d7840732-9781-4fec-91a6-7ac7cc5ac954" />
