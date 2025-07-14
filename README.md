@@ -8,7 +8,7 @@ This project supports early disease detection, improves diagnostic confidence, a
 ##  Dataset and Preprocessing
 - Type: Retinal fundus images
 - Number of Classes: 3
-- Source: Publicly available on Kaggle [Eye Diseases Classification Dataset – Kaggle](https://www.kaggle.com/datasets/gunavenkatdoddi/eye-diseases-classification)
+- Source: Publicly available on Kaggle [Eye Diseases Classification Dataset - Kaggle](https://www.kaggle.com/datasets/gunavenkatdoddi/eye-diseases-classification)
 - Preprocessing: Resizing, normalization, and image augmentation (rotation, flipping, contrast adjustment, etc.)
 - Dataset Split: Typically 80% training, 20% testing
 
@@ -49,9 +49,20 @@ This project contributes to the advancement of artificial intelligence in medica
 Future work can focus on integrating multi-modal data such as OCT scans, patient history, and angiography with fundus images to improve diagnostic accuracy. Lightweight CNN architectures optimized for mobile and edge deployment could enhance accessibility in remote settings. Federated learning may offer a secure, collaborative model of training without sharing patient data. Transfer learning and domain adaptation can boost performance with limited labeled data. Incorporating explainable AI (XAI) will improve model transparency, while tracking disease progression over time can support early intervention for chronic conditions like glaucoma and diabetic retinopathy.  
 
 ## Model Download
-You can download the trained CNN model for eye disease classification using the link below:
+You can download the trained CNN model for eye disease prediction using the link below:
 
 [Download Eye_disease_model (.h5)](https://drive.google.com/drive/folders/1Bim1I_FBKmEg5bWEczxgaG6DDHK4s_qY?usp=sharing)
 
 
-Please Note: The model is provided for academic, research, or live deployment on standard hardware. Permission may be required to access the file.
+Please Note: The model is provided for academic, research, or live deployment on standard hardware. Permission may be required to access the file.  
+
+## How to Run the Flask App.
+Follow the steps below to run the eye disease prediction model using the Flask web framework:
+
+- Clone the Repository.
+- Install dependencies. Make sure you have Python installed (Python 3.7+ is recommended), then install all required packages.
+- Download the dataset publicly available on Kaggle [Eye Diseases Classification Dataset - Kaggle](https://www.kaggle.com/datasets/gunavenkatdoddi/eye-diseases-classification)
+- Download the trained .h5 model from Google Drive: [Download Eye_disease_model (.h5)](https://drive.google.com/drive/folders/1Bim1I_FBKmEg5bWEczxgaG6DDHK4s_qY?usp=sharing)
+- After download, place the Eye_disease_model.h5 file in the root directory of the project (same folder as app.py).
+- Run the Flask app using python app.py in your terminal.
+- Open a browser, and type this address http://127.0.0.1:5000/ to interact with the model.
