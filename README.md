@@ -66,3 +66,5 @@ Follow the steps below to run the eye disease prediction model using the Flask w
 - After download, place the Eye_disease_model.h5 file in the root directory of the project (same folder as app.py).
 - Run the Flask app using python app.py in your terminal.
 - Open a browser, and type this address http://127.0.0.1:5000/ to interact with the model.
+## Reference.
+Kaggle dataset: https://www.kaggle.com/datasets/gunavenkatdoddi/eye-diseases-classification
