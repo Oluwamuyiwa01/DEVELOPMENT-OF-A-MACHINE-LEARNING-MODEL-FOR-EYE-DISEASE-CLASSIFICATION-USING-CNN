@@ -5,7 +5,6 @@ The Eye Disease Image Classification System is a deep learning-based diagnostic 
 To enhance accuracy and generalization while minimizing computational cost, the model incorporates data augmentation techniques. Designed for real-time usage and deployed via Flask, the system is lightweight and optimized to run on standard hardware, making it suitable for low-resource clinical environments.
 This project supports early disease detection, improves diagnostic confidence, and contributes to accessible and interpretable AI-powered medical imaging.
 
-
 ##  Dataset and Preprocessing
 - Type: Retinal fundus images
 - Number of Classes: 3
@@ -23,6 +22,12 @@ I compiled the model using the Adam optimizer and trained using sparse_categoric
 
 ## Performance Evaluation.
 <img width="790" height="72" alt="Screenshot 2025-07-13 122247" src="https://github.com/user-attachments/assets/02ca4a84-7136-49c1-b412-a7444e1023f6" />  
-<img width="671" height="210" alt="image" src="https://github.com/user-attachments/assets/d5313950-ad57-493a-bbb5-54cbbc6049a7" />
-<img width="764" height="354" alt="Screenshot 2025-07-13 122504" src="https://github.com/user-attachments/assets/b0c41599-7484-44a7-b70f-070dcdcb6417" />
+<img width="764" height="354" alt="Screenshot 2025-07-13 122504" src="https://github.com/user-attachments/assets/b0c41599-7484-44a7-b70f-070dcdcb6417" />  
+
+### Classification Report.    
+
+<img width="671" height="210" alt="image" src="https://github.com/user-attachments/assets/d5313950-ad57-493a-bbb5-54cbbc6049a7" />   
+
+### Confusion Matrix.   
+
 <img width="518" height="356" alt="Screenshot 2025-07-13 122403" src="https://github.com/user-attachments/assets/d7840732-9781-4fec-91a6-7ac7cc5ac954" />
