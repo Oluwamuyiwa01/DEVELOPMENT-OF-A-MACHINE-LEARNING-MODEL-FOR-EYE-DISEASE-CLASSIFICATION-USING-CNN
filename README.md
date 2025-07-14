@@ -14,7 +14,7 @@ This project supports early disease detection, improves diagnostic confidence, a
 
 ## Model Architecture
 The eye disease classification model is a lightweight Convolutional Neural Network (CNN) built using depthwise separable convolutions (SeparableConv2D) to reduce computational cost while maintaining high accuracy.  
-- The architecture includes three convolutional blocks with increasing filters (16 → 32 → 64), each followed by batch normalization and max pooling for efficient feature extraction and downsampling.  
+- The architecture includes three convolutional blocks with increasing filters (16 -> 32 -> 64), each followed by batch normalization and max pooling for efficient feature extraction and downsampling.  
 - The extracted features are flattened and passed through a dense layer with 64 neurons activated by ReLU, followed by a dropout layer (rate: 0.4) to prevent overfitting.
 - The final output layer uses a softmax activation with 3 output neurons, corresponding to the three eye disease classes in the dataset.
 
