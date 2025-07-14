@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../static/style.css">
+  <title>Eye Disease Classification</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <h2>Detect Eye Disease: Upload a Fundus Image for Analysis</h2>
+
+    <form action="/" method="post" enctype="multipart/form-data">
+      <input type="file" name="file" accept="image/*" required>
+      <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction %}
+    <div class="result">{{ prediction }}</div>
+    <img src="{{ image_path }}" alt="Uploaded Image">
+    {% endif %}
+  </div>
+
+</body>
+</html>

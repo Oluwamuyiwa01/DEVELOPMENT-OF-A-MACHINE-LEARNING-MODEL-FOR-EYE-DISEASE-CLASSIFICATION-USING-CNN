@@ -1,0 +1,17 @@
+Flask
+numpy
+pillow
+tensorflow
+werkzeug==1.0.1
+
+
+
+
+To run the model, the following libraries are required.
+
+import os
+import cv2
+import numpy as np
+from flask import Flask, render_template, request
+from tensorflow.keras.models import load_model
+from werkzeug.utils import secure_filename
