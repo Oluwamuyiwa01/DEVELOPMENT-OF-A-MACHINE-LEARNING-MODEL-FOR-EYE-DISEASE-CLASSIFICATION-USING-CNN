@@ -31,3 +31,8 @@ I compiled the model using the Adam optimizer and trained using sparse_categoric
 ### Confusion Matrix.   
 
 <img width="518" height="356" alt="Screenshot 2025-07-13 122403" src="https://github.com/user-attachments/assets/d7840732-9781-4fec-91a6-7ac7cc5ac954" />
+
+## Main Menu.  
+The main menu serves as the central navigation hub for the eye disease image classification system, providing users with easy access to the platform's core functionalities. I designed with a user-friendly interface, enabling seamless interaction by allowing users to upload eye images for classification and view diagnostic results.  
+<img width="879" height="579" alt="Screenshot 2025-03-26 141358" src="https://github.com/user-attachments/assets/a4ad6c6e-d479-4e69-ba3b-850aa49795da" />
+
