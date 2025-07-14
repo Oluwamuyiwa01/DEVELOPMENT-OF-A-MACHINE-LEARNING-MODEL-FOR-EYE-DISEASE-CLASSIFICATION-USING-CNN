@@ -36,6 +36,7 @@ I compiled the model using the Adam optimizer and trained using sparse_categoric
 The main menu serves as the central navigation hub for the eye disease image classification system, providing users with easy access to the platform's core functionalities. I designed the interface to be user-friendly, enabling seamless interaction by allowing users to upload eye images for classification and view diagnostic results.  
 
 <img width="879" height="579" alt="Screenshot 2025-03-26 141358" src="https://github.com/user-attachments/assets/a4ad6c6e-d479-4e69-ba3b-850aa49795da" />  
+
 ## Presentation of Results.  
 
 <img width="819" height="603" alt="Screenshot 2025-03-26 141954" src="https://github.com/user-attachments/assets/2ac0949e-9770-41d0-8c37-9727e551c005" />  
