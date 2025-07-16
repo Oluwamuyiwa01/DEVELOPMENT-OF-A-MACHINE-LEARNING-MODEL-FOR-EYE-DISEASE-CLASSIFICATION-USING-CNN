@@ -49,7 +49,7 @@ The system reduces reliance on manual screening, improves accessibility in resou
 ## Future Research.
 Future work can explore the integration of multi-modal data such as OCT scans, patient history, and angiography alongside fundus images to enhance diagnostic accuracy. Employing lightweight CNN architectures optimized for mobile and edge deployment could improve accessibility in remote and resource-constrained environments.  
 Federated learning offers a privacy-preserving approach to collaborative model training without sharing sensitive patient data. Additionally, transfer learning and domain adaptation techniques can improve model performance in scenarios with limited labeled data.  
-Incorporating explainable AI (XAI) methods will enhance model transparency and clinician trust. Furthermore, enabling the model to track disease progression over time may support early intervention for chronic conditions like glaucoma and diabetic retinopathy.  
+Incorporating explainable AI (XAI) methods will enhance model transparency and clinician trust. Also, enabling the model to track disease progression over time may support early intervention for chronic conditions like glaucoma and diabetic retinopathy.  
 ## Model Download.  
 You can download the trained CNN model for eye disease prediction using the link below:
 
