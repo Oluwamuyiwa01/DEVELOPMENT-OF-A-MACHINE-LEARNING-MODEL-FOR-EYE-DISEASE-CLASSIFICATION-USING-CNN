@@ -1,10 +1,9 @@
 # DEVELOPMENT-OF-A-MACHINE-LEARNING-MODEL-FOR-EYE-DISEASE-CLASSIFICATION-USING-CNN
-I designed this model to accurately detect and classify three eye diseases using Convolutional Neural Networks (CNNs), with a web interface for image upload, diagnosis, and result interpretation.
+I designed this model to accurately detect and classify three eye diseases using Convolutional Neural Networks (CNNs), incorporating a web interface for image upload, diagnosis, and result interpretation.  
 ## Overview.  
-The Eye Disease Image Classification System is a deep learning-based diagnostic tool developed to automatically detect and classify three eye conditions from retinal fundus images. Powered by Convolutional Neural Networks (CNNs), the system is trained on a diverse dataset that includes diabetic retinopathy, glaucoma, and cataract.
+The Eye Disease Image Classification System is a deep learning-based diagnostic tool developed to automatically detect and classify three eye conditions from retinal fundus images. Powered by Convolutional Neural Networks (CNNs), the system is trained on a diverse dataset comprising images of diabetic retinopathy, glaucoma, and cataract.
 To enhance accuracy and generalization while minimizing computational cost, the model incorporates data augmentation techniques. Designed for real-time usage and deployed via Flask, the system is lightweight and optimized to run on standard hardware, making it suitable for low-resource clinical environments.
-This project supports early disease detection, improves diagnostic confidence, and contributes to accessible and interpretable AI-powered medical imaging.
-
+This project supports early disease detection, improves diagnostic confidence, and contributes to the development of accessible and interpretable AI-powered medical imaging solutions.
 ##  Dataset and Preprocessing
 - Type: Retinal fundus images
 - Number of Classes: 3
@@ -44,11 +43,14 @@ The main menu serves as the central navigation hub for the eye disease image cla
 <img width="799" height="603" alt="Screenshot 2025-07-14 101712" src="https://github.com/user-attachments/assets/d45b4307-50b8-456b-b628-467aa187a25e" />    
 
 ## Contribution.
-This project contributes to the advancement of artificial intelligence in medical imaging by developing a CNN-based model that accurately classifies eye diseases such as cataract, diabetic retinopathy, and glaucoma. Achieving an accuracy of 88%, the model supports early detection and enhances diagnostic reliability. It incorporates effective preprocessing techniques like contrast adjustment, noise reduction, and data augmentation to improve model performance. Built using the CRISP-DM methodology, the project follows a structured pipeline from data preparation to deployment. It reduces reliance on manual screening, improves accessibility in resource-limited environments, and demonstrates potential for integration into clinical and telemedicine platforms. Furthermore, it promotes transparency and trust through explainable AI methods, offering a scalable and interpretable solution for AI-powered healthcare diagnostics.  
+This project advances the application of artificial intelligence in medical imaging by developing a CNN-based model that accurately classifies eye diseases such as cataract, diabetic retinopathy, and glaucoma. With an accuracy of 88%, the model supports early detection and enhances diagnostic reliability.  
+To improve performance, it incorporates effective preprocessing techniques, including contrast adjustment, noise reduction, and data augmentation. Built using the CRISP-DM methodology, the project follows a structured pipeline from data preparation to deployment.  
+The system reduces reliance on manual screening, improves accessibility in resource-limited environments, and demonstrates potential for integration into clinical and telemedicine platforms. Furthermore, it promotes transparency and trust through explainable AI techniques, offering a scalable and interpretable solution for AI-powered healthcare diagnostics.  
 ## Future Research.
-Future work can focus on integrating multi-modal data such as OCT scans, patient history, and angiography with fundus images to improve diagnostic accuracy. Lightweight CNN architectures optimized for mobile and edge deployment could enhance accessibility in remote settings. Federated learning may offer a secure, collaborative model of training without sharing patient data. Transfer learning and domain adaptation can boost performance with limited labeled data. Incorporating explainable AI (XAI) will improve model transparency, while tracking disease progression over time can support early intervention for chronic conditions like glaucoma and diabetic retinopathy.  
-
-## Model Download
+Future work can explore the integration of multi-modal data—such as OCT scans, patient history, and angiography—alongside fundus images to enhance diagnostic accuracy. Employing lightweight CNN architectures optimized for mobile and edge deployment could improve accessibility in remote and resource-constrained environments.  
+Federated learning offers a privacy-preserving approach to collaborative model training without sharing sensitive patient data. Additionally, transfer learning and domain adaptation techniques can improve model performance in scenarios with limited labeled data.  
+Incorporating explainable AI (XAI) methods will enhance model transparency and clinician trust. Furthermore, enabling the model to track disease progression over time may support early intervention for chronic conditions like glaucoma and diabetic retinopathy.  
+## Model Download.  
 You can download the trained CNN model for eye disease prediction using the link below:
 
 [Download Eye_disease_model (.h5)](https://drive.google.com/drive/folders/1Bim1I_FBKmEg5bWEczxgaG6DDHK4s_qY?usp=sharing)
